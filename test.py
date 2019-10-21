@@ -1,15 +1,3 @@
-### Tidy version of code used for Master Thesis
-
-### Dependencies:
-- [graph_tool](https://graph-tool.skewed.de/)
-- numpy
-- tqdm
-- matplotlib
-
-
-### Usage:
-
-```python
 from Algorithm_Classes.CG_Class import *
 from CA_Classes.CA1DClass import *
 from CA_Classes.CA2DClass import *
@@ -24,5 +12,3 @@ Automaton = ElementaryAutomaton(rule=110,size=2)
 CG_Algorithm = Cheap_Graph_Calc(Automaton,num_runs=10,num_tests=2,show_progress=True)
 CG_Algorithm.run()
 CG_Algorithm.display_graph(max_iter=0)
-
-```
